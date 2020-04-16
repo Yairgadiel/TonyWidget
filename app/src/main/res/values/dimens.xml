@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_size">60dp</dimen>
+    <dimen name="list_item_padding">15dp</dimen>
+    <dimen name="small_image_margin">10dp</dimen>
+    <dimen name="list_view_margin">40dp</dimen>
+    <dimen name="list_view_small_text_size">14sp</dimen>
+    <dimen name="list_view_medium_text_size">16sp</dimen>
+    <dimen name="list_view_big_text_size">20sp</dimen>
+    <dimen name="list_view_icon_size">40dp</dimen>
+    <dimen name="small_layout_padding">20dp</dimen>
+    <dimen name="big_text_box_width">120dp</dimen>
+    <dimen name="color_button_size">20dp</dimen>
+    <dimen name="color_presentation_layout">100dp</dimen>
+</resources>

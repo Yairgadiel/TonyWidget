@@ -1,0 +1,10 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@mipmap/ic_launcher"
+    android:initialLayout="@layout/tonywidget_layout"
+    android:configure="com.yair.tonywidget.Activities.WidgetConfigActivity"
+    android:resizeMode="vertical|horizontal"
+    android:widgetCategory="home_screen">
+</appwidget-provider>

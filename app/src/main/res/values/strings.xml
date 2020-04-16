@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TonyWidget</string>
+    <string name="toast_contacts_search_failed">Could not find any contacts :(</string>
+    <string name="contact_search_hint">Enter contact</string>
+    <string name="contact_widget_name_enter">Name:</string>
+    <string name="widget_dialog_create">Create</string>
+    <string name="widget_dialog_cancel">Cancel</string>
+    <string name="select">Select</string>
+</resources>

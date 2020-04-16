@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutSearchContact"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        >
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etContactNameToSearch"
+            android:hint="@string/contact_search_hint"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivSearch"
+            android:layout_toRightOf="@id/etContactNameToSearch"
+            android:layout_toEndOf="@id/etContactNameToSearch"
+            android:layout_centerVertical="true"
+            android:src="@drawable/search_icon_26px"
+        />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutSearchContact"
+        android:layout_margin="@dimen/list_view_margin"
+        android:clickable="true"
+        android:focusable="true">
+    </ListView>
+</RelativeLayout>

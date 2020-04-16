@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TonyWidget</string>
+    <string name="toast_contacts_search_failed">לא נמצאו אנשי קשר :(</string>
+    <string name="contact_search_hint">שם איש קשר</string>
+    <string name="contact_widget_name_enter">שם:</string>
+    <string name="widget_dialog_create">צור</string>
+    <string name="widget_dialog_cancel">בטל</string>
+    <string name="select">בחר</string>
+</resources>

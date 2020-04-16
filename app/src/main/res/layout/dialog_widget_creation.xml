@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/small_layout_padding"
+    android:layout_centerHorizontal="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutCWName"
+        android:padding="@dimen/small_layout_padding"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCWName"
+            android:text="@string/contact_widget_name_enter"
+            android:textStyle="bold"
+            android:textSize="@dimen/list_view_medium_text_size"
+            />
+        <EditText
+            android:layout_width="@dimen/big_text_box_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCWName"
+            android:layout_toRightOf="@id/tvCWName"
+            android:layout_toEndOf="@id/tvCWName"
+            android:textSize="@dimen/list_view_medium_text_size"
+            android:layout_alignBaseline="@id/tvCWName"
+            android:layout_marginLeft="@dimen/small_image_margin"
+            android:layout_marginStart="@dimen/small_image_margin"
+            android:layout_marginRight="@dimen/small_image_margin"
+            android:layout_marginEnd="@dimen/small_image_margin"
+            />
+        <View
+            android:layout_width="@dimen/color_button_size"
+            android:layout_height="@dimen/color_button_size"
+            android:id="@+id/viewCWNameColor"
+            android:layout_toRightOf="@id/etCWName"
+            android:layout_toEndOf="@id/etCWName"
+            android:background="@android:color/black"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/tonywidget_layout"
+        android:id="@+id/layoutPreview"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tvCreateWidget"
+           android:text="@string/widget_dialog_create"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true"
+           android:textColor="@color/colorPrimary"
+           android:textStyle="bold"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCancel"
+            android:text="@string/widget_dialog_cancel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+</LinearLayout>
